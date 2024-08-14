@@ -1,8 +1,4 @@
-/* All Common Css Start  */
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+/* Nav related styles  */
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -15,6 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav_title {
@@ -47,4 +44,17 @@ nav a {
     padding: 18px 33px;
 }
 
-/* All Common Css End  */
+/* Header related Styles */
+.header {
+    background-color: #FFF8F3;
+}
+
+/* Banner related styles  */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
+}
