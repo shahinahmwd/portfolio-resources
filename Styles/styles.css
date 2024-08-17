@@ -1,17 +1,51 @@
-/* Nav related styles  */
+/* common related styles  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
+}
+
+.section_title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section_description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 46px;
+}
+
+.btn_primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-style: 20px;
+    font-weight: 700;
+    color: white;
+    margin-right: 12px;
+    padding: 18px 33px;
 }
 
 .text_primary {
     color: #FD6E0A;
 }
 
+/* Nav related styles  */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 .nav_title {
@@ -35,26 +69,73 @@ nav a {
     color: #181818;
 }
 
-.btn_primary {
-    border-radius: 5px;
-    background: #FD6E0A;
-    font-style: 20px;
-    font-weight: 700;
-    color: white;
-    padding: 18px 33px;
-}
 
 /* Header related Styles */
 .header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* Banner related styles  */
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile{
+
+.banner .profile {
     width: 500px;
 }
+
+.banner-greeting {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-container {
+    min-width: 500px;
+}
+
+.banner-titel {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 66px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* Main Section Styles  */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+}
+.about_info{
+    text-align: center;
+}
+/* about Section Styles  */
